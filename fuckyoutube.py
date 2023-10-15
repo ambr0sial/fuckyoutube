@@ -10,7 +10,6 @@ def get_direct_link(youtube_url, selected_quality=None):
             return "could not find anything"
         
         if selected_quality:
-            # Filter streams by quality
             selected_streams = [s for s in streams if selected_quality in s.resolution]
             if selected_streams:
                 stream = selected_streams[0]
@@ -27,7 +26,6 @@ def get_direct_link(youtube_url, selected_quality=None):
 if __name__ == "__main__":
     youtube_url = input("url: ")
     
-    # List available qualities
     yt = YouTube(youtube_url)
     available_qualities = [s.resolution for s in yt.streams.filter(progressive=True, file_extension="mp4")]
     print("available resolutions:")
