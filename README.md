@@ -25,6 +25,8 @@ FuckYouTube is a Python program that allows you to extract the direct link to a 
 
 2. Go into the directory and run the program (pure if you don't want to use PyTube):
    ```bash
+   pip install -r requirements.txt
+
    python fuckyoutube.py
    
    or
