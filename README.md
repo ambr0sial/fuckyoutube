@@ -2,6 +2,9 @@
   <a href="https://github.com/ambr0sial/fuckyoutube"><img src="assets/fuckyoutube.png" alt="FuckYouTube" width="512" /></a> 
 </p>
 <p align="center">
+  <b>NOT WORKING ANYMORE</b>
+</p>
+<p align="center">
   FuckYouTube is a Python program that can retrieve a direct link from a YouTube URL.
 </p>
 
